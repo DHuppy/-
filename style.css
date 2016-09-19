@@ -17,7 +17,7 @@ width:200px;
 height:400px;
 float:left;
 background-color:green;
-margin-left:-200px; /*margin-left =  - 它的宽度时，它就会向上跑到第一个div 的最右面*/
+margin-left:-200px; /*margin-left=-它的宽度时，它就会向上跑到第一个div 的最右面*/
 }
 .header{
 width:100%;
