@@ -3,7 +3,7 @@ width:200px;
 height:400px;
 float:left;
 background-color:red;
-margin-left:-100%;
+margin-left:-100%; /*margin-left:-100%，它就会跑到第一个div的最左面*/
 }
 .main{
 width:100%;
@@ -11,13 +11,13 @@ height:400px;
 background-color:blue;
 float:left;
 }
-.main-warp{margin:0 200px;}
+.main-warp{margin:0 200px;} /*此时3栏位于同一行，且左栏与中间栏左侧重叠，右栏与中间栏右侧重叠。只要再将中间栏的数据左右往里各挤左右栏的宽度即可。所以中间栏中再加了个div，设其margin:0 200px即可*/
 .right{
 width:200px;
 height:400px;
 float:left;
 background-color:green;
-margin-left:-200px;
+margin-left:-200px; /*margin-left =  - 它的宽度时，它就会向上跑到第一个div 的最右面*/
 }
 .header{
 width:100%;
